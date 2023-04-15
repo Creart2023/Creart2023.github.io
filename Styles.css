@@ -1,0 +1,377 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+.Navegador {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 5px; 
+}
+
+.Contenedor-Principal{
+background-image: url(/Img/fondo\ pagina\ web_Mesa\ de\ trabajo\ 1.png);
+width: 100%; height:100%;
+position: absolute; z-index:-1;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 20px;}
+h2{ font-size: 50px;}
+h3{ font-size: 22px}
+p { font-size: 20px;}
+ul{ list-style: none;}
+
+
+.color-acento{ color:blueviolet; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 10px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    color:blueviolet;
+}
+
+header a:hover{
+    color: rgb(74, 195, 255);
+}
+
+.Frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 64, 147, 0.5),
+        rgba(3, 159, 255, 0.5)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Frase h1{
+    color: white;
+}
+
+
+
+.Somos .container{
+    text-align: center;
+    padding: 30px 12px;
+}
+
+#Objetivos-Programas{
+    background-color: rgb(255, 143, 186);
+    color: white;
+    text-align: center;
+
+
+}
+
+#Objetivos-Programas .container{
+    padding: 140px 10px;
+}
+
+#Objetivos-Programas h2{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#Objetivos-Programas p{
+    display: none;
+}
+
+#Objetivos-Programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+
+    header{
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    .Frase h1{
+        font-size: 5em;
+    }
+
+    .Somos .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .Somos .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .Somos h2{
+        margin-top: 0px;
+        font-family:'Indie Flower', cursive;
+    }
+    .Somos2{
+    margin-top: 18px;
+    font-family: 'Raleway', sans-serif;
+    }
+
+    .Somos .img-container{
+        background-image: url("/Img/Logo\ final_Mesa\ de\ trabajo\ 1.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+    }
+
+    #Objetivos-Programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #Objetivos-Programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #Objetivos-Programas h2{
+        font-size: 70px;
+        margin-right: 1000px;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .Somos3{
+        font-family:'Raleway', sans-serif;
+        border-radius: 1%;
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    #Objetivos-Programas p{
+        margin-top: 0;
+    }
+
+    #Objetivos-Programas .carta{
+        padding: 15px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #Objetivos-Video{
+            background-color: rgb(255, 249, 78);
+            width: 100%;
+            height: 500px;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        #Objetivos-Video .container{
+            padding: 5px 10px;
+        }
+        
+        
+        #Objetivos-Video p{
+            display: none;
+        }
+        
+        #Objetivos-Video .carta{
+            background-position: center center;
+            background-size: cover;
+        }
+
+
+        #Objetivos-Video .programas{
+            display: flex;
+            justify-content: center;
+        }
+    
+        #Objetivos-Video h4 {
+            font-size: 50px;
+            margin-top: 200px;
+            margin-left: 80px;
+            font-family: 'Indie Flower', cursive;
+        }
+    
+    
+        #Objetivos-Video .carta{
+            padding: 10px;
+            background-size: 100% 150px;
+            background-repeat: no-repeat;
+            background-position-y: 0;}
+
+
+
+
+
+
+
+.contact {
+    padding-top: 15px;
+    background: #171717;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Nuestros-Productos  {
+    width: 100%;
+    
+}
+
+.Galería {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+	align-items: flex-start;
+    padding: 50px;
+}
+
+.Galería img{
+    vertical-align: top;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid #484848;
+    opacity: 0.5;
+}
+
+.Galería img:hover {
+    border: 1px solid #fff;
+    opacity: 1;
+    display: inline-block;
+
+}
+
+
+div.Productos {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    
+}
+div.Artículo {
+margin: 10px;
+}
+
+p.Descripción {
+text-align: center;
+font-family:'Raleway', sans-serif;
+}
+
+Img.Imagen {
+border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
